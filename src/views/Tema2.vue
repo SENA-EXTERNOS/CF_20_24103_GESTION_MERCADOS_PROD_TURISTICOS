@@ -2,18 +2,18 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 2
       h1 Protocolos de cierre de eventos
 
-    .row.justify-content-center.align-items-center.mt-5
+    .row.justify-content-center.align-items-center.mt-5.mb-3
       .col-lg-3
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema2/img1.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema2/img1.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5
 
       .col-lg-7
-        p Un protocolo consiste en plasmar en un documento un proceso determinado para una empresa, con el fin de encontrar una secuencia lógica para la realización de un proceso, garantizando una prestación de servicios con calidad que genere confianza y lealtad en los clientes,  y que cree la sensación de organización en los equipos de trabajo.
+        p.mt-5 Un protocolo consiste en plasmar en un documento un proceso determinado para una empresa, con el fin de encontrar una secuencia lógica para la realización de un proceso, garantizando una prestación de servicios con calidad que genere confianza y lealtad en los clientes,  y que cree la sensación de organización en los equipos de trabajo.
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10
@@ -71,7 +71,7 @@
 
     ImagenInfografica.color-acento-botones
       template(v-slot:imagen)
-        figure
+        figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img4.svg', alt='Texto que describa la imagen')
 
       .tarjeta.color-acento-botones.p-3(x="6%" y="9%" numero="")

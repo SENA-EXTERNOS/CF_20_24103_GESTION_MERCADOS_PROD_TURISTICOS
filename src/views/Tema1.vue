@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span 1
       h1 Cierre de eventos 
@@ -10,10 +10,10 @@
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-2
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema1/img1.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/tema1/img1.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5
       
       .col-lg-8
-        p El cierre del evento se realiza cuando ya se haya obtenido el objetivo planteado inicialmente, y se lleva a cabo de manera posterior a la fecha de su ejecución. Es en este momento cuando comienza la última fase de la realización del evento, pues un cierre no es solo la conclusión de la actividad, sino que es el momento en el cual se generan informes requeridos por la organización, para conocer el alcance de los objetivos planteados de manera inicial, y formular aprendizajes que sirven para su aplicación en posteriores eventos. 
+        p.mt-5 El cierre del evento se realiza cuando ya se haya obtenido el objetivo planteado inicialmente, y se lleva a cabo de manera posterior a la fecha de su ejecución. Es en este momento cuando comienza la última fase de la realización del evento, pues un cierre no es solo la conclusión de la actividad, sino que es el momento en el cual se generan informes requeridos por la organización, para conocer el alcance de los objetivos planteados de manera inicial, y formular aprendizajes que sirven para su aplicación en posteriores eventos. 
 
     .row.mt-5
       p En el cierre se realizan evaluaciones operativas, administrativas y financieras. Para cada una de ellas es importante diseñar herramientas que ayuden a determinar el alcance de las acciones, pero lo más importante, es que permitan obtener una retroalimentación. 
@@ -172,7 +172,7 @@
             p Durante el evento se puede preguntar por las instalaciones y conocer si se tienen que cambiar determinados aspectos.
 
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img11.svg', alt='Texto que describa la imagen')
 
         .row
@@ -181,7 +181,7 @@
             p Durante el evento se puede preguntar por las instalaciones y conocer si se tienen que cambiar determinados aspectos.
 
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img12.png', alt='Texto que describa la imagen')
 
         .row
@@ -190,7 +190,7 @@
             p Después del evento se puede enviar la encuesta a los invitados, aunque esta tiene menor aceptación; no obstante, presenta resultados más fiables.
 
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img13.png', alt='Texto que describa la imagen')
 
         .row
@@ -199,7 +199,7 @@
             p Finalmente, el supervisor y su equipo deben analizar los datos recogidos y presentar los resultados ante el comité de organización del evento, con sus conclusiones para futuras actividades.
 
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img14.png', alt='Texto que describa la imagen')
 
      
@@ -219,7 +219,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="Bases de datos")
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
-                figure
+                figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/img15.svg', alt='Texto que describa la imagen')       
               .col-lg-10
                 h4 Bases de datos
@@ -228,7 +228,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="Ejemplo de base de datos")
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
-                figure
+                figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/img16.svg', alt='Texto que describa la imagen')       
               .col-lg-10
                 h4 Ejemplo de base de datos
@@ -237,7 +237,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="Cantidad de información")
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
-                figure
+                figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/img17.svg', alt='Texto que describa la imagen')       
               .col-lg-10
                 h4 Cantidad de información
@@ -246,7 +246,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="Información de clientes")
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
-                figure
+                figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/img18.svg', alt='Texto que describa la imagen')       
               .col-lg-10
                 h4 Información de clientes
@@ -255,7 +255,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="Herramientas tecnológicas")
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
-                figure
+                figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/img19.svg', alt='Texto que describa la imagen')       
               .col-lg-10
                 h4 Herramientas tecnológicas
@@ -264,7 +264,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="Hojas de cálculo")
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
-                figure
+                figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/img20.svg', alt='Texto que describa la imagen')       
               .col-lg-10
                 h4 Hojas de cálculo
@@ -282,7 +282,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="Sistemas de Gestión de Bases de Datos")
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
-                figure
+                figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/img21.svg', alt='Texto que describa la imagen')       
               .col-lg-10
                 h4 Sistemas de Gestión de Bases de Datos
@@ -291,7 +291,7 @@
           .tarjeta.clr-paleYellow.p-4(titulo="<em>Cloud</em>")
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
-                figure
+                figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/img22.svg', alt='Texto que describa la imagen')       
               .col-lg-10
                 h4 #[i Cloud]
@@ -307,7 +307,7 @@
           .col-md.tarjeta.color-tarjeta-1.p-5
             .row.justify-content-center.mb-4
               .col-6
-                figure
+                figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/img23.svg', alt='Texto que describa la imagen')
               
             h2.text-center Ventajas
@@ -335,7 +335,7 @@
           .col-md.tarjeta.color-tarjeta-2.p-5
             .row.justify-content-center.mb-4
               .col-6
-                figure
+                figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema1/img24.svg', alt='Texto que describa la imagen')
               
             h2.text-center Desventajas
@@ -363,7 +363,7 @@
       .py-4.py-md-5(titulo="Gestión de informes" :icono="require('@/assets/curso/temas/tema1/img25.svg')")
         .row.justify-content-center.align-items-center
           .col-md-3.mb-4.mb-md-0
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img27.svg', alt='Texto que describa la imagen')
 
           .col-md-9
@@ -372,7 +372,7 @@
       .py-4.py-md-5(titulo="Herramienta de evaluación" :icono="require('@/assets/curso/temas/tema1/img26.svg')")
         .row.justify-content-center.align-items-center
           .col-md-3.mb-4.mb-md-0
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img28.svg', alt='Texto que describa la imagen')
 
           .col-md-9
@@ -386,7 +386,7 @@
       .col-lg-8
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img29.svg', alt='Texto que describa la imagen')
 
           .tarjeta.color-acento-botones.p-3(x="50%" y="5%" numero="")
@@ -666,7 +666,7 @@
       PasosB.color-acento-botones
         .row(titulo="Paso 1")
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img31.png', alt='Texto que describa la imagen')
 
           .col-md-7.mb-4.mb-md-0
@@ -683,7 +683,7 @@
 
         .row(titulo="Paso 2")
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img32.png', alt='Texto que describa la imagen')
 
           .col-md-7.mb-4.mb-md-0
@@ -700,7 +700,7 @@
 
         .row(titulo="Paso 3")
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img33.png', alt='Texto que describa la imagen')
 
           .col-md-7.mb-4.mb-md-0
@@ -717,7 +717,7 @@
 
         .row(titulo="Paso 4")
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img34.png', alt='Texto que describa la imagen')
 
           .col-md-7.mb-4.mb-md-0
@@ -734,7 +734,7 @@
 
         .row(titulo="Paso 5")
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img35.png', alt='Texto que describa la imagen')
 
           .col-md-7.mb-4.mb-md-0
@@ -751,7 +751,7 @@
 
         .row(titulo="Paso 6")
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img36.png', alt='Texto que describa la imagen')
 
           .col-md-7.mb-4.mb-md-0
@@ -768,7 +768,7 @@
 
         .row(titulo="Paso 7")
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img37.png', alt='Texto que describa la imagen')
 
           .col-md-7.mb-4.mb-md-0
@@ -782,7 +782,7 @@
 
         .row(titulo="Paso 8")
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img38.png', alt='Texto que describa la imagen')
 
           .col-md-7.mb-4.mb-md-0
@@ -795,7 +795,7 @@
 
         .row(titulo="Paso 9")
           .col-md-5
-            figure
+            figure(data-aos="zoom-in")
               img(src='@/assets/curso/temas/tema1/img39.png', alt='Texto que describa la imagen')
 
           .col-md-7.mb-4.mb-md-0
@@ -816,7 +816,7 @@
         .cajonAmarillo.bgr-tarjeta-tema1.p-4
            p Concluyendo, el informe final recopila todo lo transcurrido en la ejecución del evento, por lo que requiere de unos insumos para su elaboración. De igual forma, debe presentar los datos más relevantes de manera clara para la organización.
 
-           
+
 
 </template>
 

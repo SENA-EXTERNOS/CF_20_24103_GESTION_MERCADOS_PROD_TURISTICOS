@@ -3,7 +3,7 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
   
-    .titulo-principal.color-acento-contenido
+    .titulo-principal.color-acento-contenido(data-aos="zoom-in-left")
       .titulo-principal__numero
         span
           i.fas.fa-info
@@ -12,7 +12,7 @@
     .row.justify-content-around.align-items-center.mt-5
       .col-lg-10
         figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/introduccion/img1.svg', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/temas/introduccion/img1.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5
 
     .row.justify-content-around.align-items-center.mt-3
       .col-lg-10
