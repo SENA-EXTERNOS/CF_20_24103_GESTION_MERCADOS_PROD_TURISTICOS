@@ -149,15 +149,15 @@
             figure
               img(src='@/assets/curso/temas/tema1/img10.svg', alt='Texto que describa la imagen')
 
-          .tarjeta.color-acento-botones.p-3(x="31.4%" y="28.2%" numero="1")
+          .tarjeta.color-acento-botones.p-3(x="31.4%" y="28.2%" numero="")
             .h5.mb-2 #[i Checklist o listas de chequeo:]
             p Son documentos donde se desglosan de manera puntual las tareas a realizar. La ventaja de su uso es permitir al supervisor el poder de delegar y realizar un control, de una manera más sencilla, de cada una de las acciones, además de ser una herramienta de inventario una vez finalizado el evento.
 
-          .tarjeta.color-acento-botones.p-3(x="50%" y="28.2%" numero="2")
+          .tarjeta.color-acento-botones.p-3(x="50%" y="28.2%" numero="")
             .h5.mb-2 El cronograma del programa:
             p Es una herramienta eficiente utilizada para la organización de las actividades y el cumplimiento a tiempo de las tareas.
 
-          .tarjeta.color-acento-botones.p-3(x="68.7%" y="28.2%" numero="3")
+          .tarjeta.color-acento-botones.p-3(x="68.7%" y="28.2%" numero="")
             .h5.mb-2 Encuestas para la evaluación del evento:
             p El supervisor de eventos, junto con su equipo, se encargará de evaluar el proyecto; dicha evaluación sirve para establecer si se han alcanzado los objetivos propuestos, utilizando principalmente encuestas de satisfacción.
 
@@ -215,13 +215,13 @@
 
     .row.justify-content-center.align-items-center.mb-5.mt-5          
       .col-lg-12
-        TabsA.color-acento-botones.mb-5        
+        TabsA.color-acento-contenido.mb-5        
           .tarjeta.clr-paleYellow.p-4(titulo="Bases de datos")
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema1/img15.svg', alt='Texto que describa la imagen')       
-              .col-lg-10
+                  img(src='@/assets/curso/temas/tema1/img15.svg', alt='Texto que describa la imagen').imagen-tab      
+              .col-lg-10.mt-3
                 h4 Bases de datos
                 p Las bases de datos son un conjunto de datos relacionados entre sí que poseen una coherencia lógica y contienen la representación de objetos, sujetos o hechos de la vida real o simulados. Son creadas con un fin específico, es decir, deben tener una utilidad para una persona o un grupo. (Granero, 2022, párr. 1)
 
@@ -229,8 +229,8 @@
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema1/img16.svg', alt='Texto que describa la imagen')       
-              .col-lg-10
+                  img(src='@/assets/curso/temas/tema1/img16.svg', alt='Texto que describa la imagen').imagen-tab      
+              .col-lg-10.mt-3
                 h4 Ejemplo de base de datos
                 p Las bases de datos pueden pensarse como una agenda telefónica, la cual contiene información sobre contactos; su fin es tener información a la mano que permita establecer una comunicación ágil con los mismos. A medida que se obtiene más información de ellos, se va almacenando de manera organizada.
 
@@ -238,8 +238,8 @@
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema1/img17.svg', alt='Texto que describa la imagen')       
-              .col-lg-10
+                  img(src='@/assets/curso/temas/tema1/img17.svg', alt='Texto que describa la imagen').imagen-tab      
+              .col-lg-10.mt-3
                 h4 Cantidad de información
                 p Anteriormente, solo era un número de teléfono (quizá fijo) y su dirección de residencia, a medida que ha pasado el tiempo también se puede contener información sobre redes sociales, la fecha de nacimiento, entre otros. Todos estos datos son importantes para la comunicación con las personas con las cuales se requiere mantener un contacto personal, profesional o empresarial. 
 
@@ -247,8 +247,8 @@
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema1/img18.svg', alt='Texto que describa la imagen')       
-              .col-lg-10
+                  img(src='@/assets/curso/temas/tema1/img18.svg', alt='Texto que describa la imagen').imagen-tab       
+              .col-lg-10.mt-3
                 h4 Información de clientes
                 p Una base de datos, por ejemplo, pueden ser nuestros clientes, su email, su nombre, apellidos, teléfono, fecha en la que entraron a nuestra web, productos o servicios que han comprado, fechas en las que compraron, su dirección y muchos otros campos. Gracias a todos estos datos, podremos trabajarlos para conocer mucho más a nuestros clientes y potenciar nuestro negocio, así como sacar conclusiones o analizar comportamientos. (Aurora, 2022, párr. 2)
 
@@ -256,8 +256,8 @@
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema1/img19.svg', alt='Texto que describa la imagen')       
-              .col-lg-10
+                  img(src='@/assets/curso/temas/tema1/img19.svg', alt='Texto que describa la imagen').imagen-tab       
+              .col-lg-10.mt-3
                 h4 Herramientas tecnológicas
                 p Para la elaboración de las bases de datos existen herramientas tecnológicas o softwares diseñados para tal fin; dependiendo del nivel de complejidad y de lo que se busca se eligen los tipos a usar. Es importante conocer las diferencias entre estas.
 
@@ -265,8 +265,8 @@
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema1/img20.svg', alt='Texto que describa la imagen')       
-              .col-lg-10
+                  img(src='@/assets/curso/temas/tema1/img20.svg', alt='Texto que describa la imagen').imagen-tab       
+              .col-lg-10.mt-3
                 h4 Hojas de cálculo
                 p Tanto las bases de datos como las hojas de cálculo tienen la finalidad de ordenar y almacenar la información para ser manipulada. Cabe destacar algunos puntos fundamentales:
 
@@ -283,8 +283,8 @@
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema1/img21.svg', alt='Texto que describa la imagen')       
-              .col-lg-10
+                  img(src='@/assets/curso/temas/tema1/img21.svg', alt='Texto que describa la imagen').imagen-tab       
+              .col-lg-10.mt-3
                 h4 Sistemas de Gestión de Bases de Datos
                 p Existen programas especializados, denominados ‘Sistemas de Gestión de Bases de Datos’, que ofrecen mayores ventajas a la hora del procesamiento y almacenamiento.
 
@@ -292,8 +292,8 @@
             .row.justify-content-center.align-items-center.mb-5.mt-5
               .col-lg-2
                 figure(data-aos="zoom-in")
-                  img(src='@/assets/curso/temas/tema1/img22.svg', alt='Texto que describa la imagen')       
-              .col-lg-10
+                  img(src='@/assets/curso/temas/tema1/img22.svg', alt='Texto que describa la imagen').imagen-tab      
+              .col-lg-10.mt-3
                 h4 #[i Cloud]
                 p También existen otro tipo de bases de datos que se ofrecen como servicio desde la nube, no requieren de infraestructura y su diseño es mucho más sencillo. Además, se puede hacer uso de plantillas que guardan determinadas tablas para su uso.
 

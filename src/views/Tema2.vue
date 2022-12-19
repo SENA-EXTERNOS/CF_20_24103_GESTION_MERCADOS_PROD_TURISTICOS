@@ -45,7 +45,7 @@
                 .col.mb-3.mb-sm-0
                   h3.mb-1.text-white Anexo 1 - Ejemplo lista de chequeo
                 .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/anexo_1-Propuesta_comercial.pdf')" target="_blank")
+                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/Anexo_1.xlsx')" target="_blank")
                     span Descargar
                     i.fas.fa-file-download
 
