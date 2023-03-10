@@ -13,26 +13,35 @@
           img(src='@/assets/curso/temas/tema2/img1.svg', alt='Texto que describa la imagen').banner-principal-decorativo-5
 
       .col-lg-7
-        p.mt-5 Un protocolo consiste en plasmar en un documento un proceso determinado para una empresa, con el fin de encontrar una secuencia lógica para la realización de un proceso, garantizando una prestación de servicios con calidad que genere confianza y lealtad en los clientes,  y que cree la sensación de organización en los equipos de trabajo.
+        p.mt-5 Un protocolo consiste en plasmar en un documento un proceso determinado para una empresa, con el fin de encontrar la secuencia lógica para su realización, garantizando la prestación de servicios con calidad que genere confianza y lealtad en los clientes, y que además cree sensación de organización en los equipos de trabajo.
 
     .row.justify-content-center.align-items-center.mt-5
       .col-lg-10
         p Para el cierre del evento es importante tener en cuenta la elaboración de un protocolo que facilite el trabajo en esta fase, permitiendo que se pueda realizar de una manera organizada, como un proceso ya establecido.
 
-
-    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
+    ul.lista-ul--color.mb-5
+      li 
+        i.fas.fa-square
+        p.mb-0 #[b Lista de chequeo]
+    .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5.mb-5
       .bloque-texto-g__img(
         :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img2.svg')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 La herramienta más comúnmente utilizada para aplicar los protocolos es la lista de chequeo, donde se comprueba el cumplimiento de los procesos que tiene la empresa. 
+        p.mb-0 La herramienta más comúnmente utilizada para aplicar los protocolos es la lista de chequeo, en ella se comprueba el cumplimiento de los procesos que tiene la empresa. 
         br
         br
-        | Hay varias estrategias para su elaboración: pueden usarse imágenes, preguntas o secuencias de acciones. A continuación se muestra un formato:
+        | Hay varias estrategias para su elaboración: pueden usarse imágenes, preguntas o secuencias de acciones. 
 
-    .row.justify-content-center.align-items-center.mt-5
-      .col-lg-12
-        p Para ampliar la información, se le invita a ver el #[b Anexo 1].  Ejemplo de lista de chequeo’, en el cual se detalla el checklist de una organización, donde se especifica lo que se debe tener en cuenta antes, durante y después del evento.
+    p A continuación se adjunta un formato de ejemplo que puede revisar.
+
+    p.mb-5 Para ampliar la información, se le invita a ver el<b> Anexo 1.  Ejemplo de lista de chequeo,</b> en el cual se detalla el <i>checklist</i> de una organización, donde se especifica lo que se debe tener en cuenta antes, durante y después del evento.
+
+    ul.lista-ul--color.mb-5
+      li 
+        i.fas.fa-square
+        p.mb-0 #[b Componentes de la lista de chequeo]
+
 
     .row.justify-content-center.align-items-center.mb-3.mt-3
       .col-lg-10
@@ -67,7 +76,7 @@
           i.fas.fa-square
           p.mb-0 #[b Proceso de elaboración de las listas de chequeo]
 
-      p Para la elaboración de las listas de chequeo se sugiere seguir una serie de pasos para su construcción:
+      p Para la elaboración de las listas de chequeo se sugiere seguir una serie de pasos como se ve a continuación:
 
     ImagenInfografica.color-acento-botones
       template(v-slot:imagen)
@@ -125,12 +134,12 @@
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-10
-        Para concluir, las listas de chequeo no son elaboraciones estándar, deben construirse de acuerdo a las diferentes necesidades. Existen modelos que se pueden ajustar con base a la planeación de cada actividad. 
+        p Para concluir, las listas de chequeo no son elaboraciones estándar, deben construirse de acuerdo a las diferentes necesidades. Existen modelos que se pueden ajustar con base a la planeación de cada actividad. 
 
     .row.justify-content-center.align-items-center.mb-5.mt-5
       .col-lg-10
         .cajonAmarillo.bgr-tarjeta-tema1.p-4
-           p Recuerde explorar los demás recursos que se encuentran disponibles en este componente formativo, como son la síntesis, la actividad didáctica, material complementario, entre otros.
+           p Estimado aprendiz, ha llegado al final de este componente formativo, recuerde explorar los demás recursos que se encuentran disponibles como son la síntesis, la actividad didáctica, material complementario, entre otros.
 
 </template>
 

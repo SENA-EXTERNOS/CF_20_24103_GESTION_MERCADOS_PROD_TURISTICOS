@@ -2,7 +2,7 @@ export default {
   global: {
     componenteFormativo: 'Cierre de eventos',
     descripcionCurso:
-      'En este módulo el aprendiz recibirá información relevante para poder realizar un cierre de eventos con las características requeridas por la organización, además de herramientas esenciales como las bases de datos, los informes de cierre que contengan criterios de evaluación que apunten a los objetivos propuestos para el evento y la elaboración de los protocolos para el cierre de eventos. ',
+      'En este módulo recibirá información relevante para realizar correctamente un cierre de eventos con las características requeridas por la organización; conocerá las herramientas esenciales para el cierre, como son las bases de datos y los informes de cierre que contengan criterios de evaluación que apunten a los objetivos propuestos para el evento, además de la elaboración de los protocolos para el cierre de eventos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
@@ -43,26 +43,6 @@ export default {
         numero: '1',
         titulo: 'Cierre de eventos ',
         desarrolloContenidos: true,
-        subMenu: [
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.1',
-            titulo: 'Supervisión',
-            hash: 't_1_1',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.2',
-            titulo: 'Bases de datos',
-            hash: 't_1_2',
-          },
-          {
-            icono: 'far fa-file-alt',
-            numero: '1.3',
-            titulo: 'Informes de cierre de eventos',
-            hash: 't_1_3',
-          },
-        ],
       },
 
       {
@@ -169,7 +149,7 @@ export default {
         'Es la habilidad o postura que posee una persona o cosa para efectuar una determinada actividad. La capacidad y destreza para el desarrollo y buen desempeño de un negocio, industria, arte, deporte, entre otros.',
     },
     {
-      termino: 'Datos',
+      termino: 'Dato',
       significado:
         'Es la representación de una variable que puede ser cuantitativa o cualitativa, indicando un valor que se le asigna a las cosas. Se representa a través de una secuencia de símbolos, números o letras.',
     },
@@ -179,7 +159,7 @@ export default {
         'Es un término informático que hace referencia a un programa o conjunto de programas de cómputo, así como datos, procedimientos y pautas que permiten realizar distintas tareas en un sistema de este tipo.',
     },
     {
-      termino: 'Proyecciones',
+      termino: 'Proyección',
       significado:
         'Es una estimación acerca de la potencial situación de una empresa o del progreso de un plan.',
     },
@@ -189,7 +169,7 @@ export default {
         'Es la combinación de <em>hardware</em> y <em>software</em> para elaborar, automatizar y registrar de forma digital la información que necesita una oficina para llevar a cabo los procesos de manera correcta.',
     },
     {
-      termino: 'Estrategias ',
+      termino: 'Estrategia',
       significado:
         'Es un procedimiento dispuesto para la toma de decisiones frente a un determinado escenario, buscando alcanzar uno o varios objetivos previamente definidos.',
     },

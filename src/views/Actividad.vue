@@ -9,9 +9,9 @@
           figure
             img(src="@/assets/template/opcion-multiple.svg", alt="Texto que describa la imagen")
       .col-12.col-md-8.col-lg-9
-        .titulo-segundo
-          h2 Selección múltiple
-        p.mb-4 Esta actividad interactiva tiene como propósito que el aprendiz afiance los conceptos propuestos en este material de estudio, mediante un cuestionario de selección múltiple.
+        .titulo-segundo.color-primario
+          h2 Cierre de eventos
+        p.mb-4 Esta actividad interactiva tiene como propósito afianzar los conceptos propuestos en este material de estudio, mediante un cuestionario de selección múltiple. A continuación, encontrará algunos conceptos, escoja la respuesta adecuada en cada afirmación.
         p Seleccione la respuesta correcta:
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            

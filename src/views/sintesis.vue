@@ -3,9 +3,7 @@
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
 
-    p Apreciado aprendiz, después de haber integrado todos los conceptos aquí propuestos, se le invita a revisar la síntesis, en modo de mapa conceptual,  que refuerza la apropiación de lo presentado.
-
-    p.mb-5 Revise el siguiente esquema gráfico que presenta una síntesis de las temáticas abordadas en el componente formativo.
+    p En esta síntesis encontrará los principales temas estudiados en el componente formativo, por medio de este mapa conceptual podrá aclarar los conceptos principales vistos.
 
     .row.justify-content-center
       .col-lg-10.mb-5
