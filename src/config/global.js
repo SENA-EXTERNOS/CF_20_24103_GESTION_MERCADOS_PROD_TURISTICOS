@@ -123,8 +123,7 @@ export default {
       referencia:
         'Pérez Díaz, C., & Páez Escobar, Á. (2014). El turismo de eventos y reuniones en destinos turísticos maduros: Un pilar para la reconversión del producto turístico de Puerto de la Cruz (Tenerife). <em>Investigaciones Turísticas</em>, (7), p. 102-135.',
       tipo: 'Artículo',
-      link:
-        'https://www.google.com/url?q=https://rua.ua.es/dspace/bitstream/10045/38441/1/Investigaciones_Turisticas_07_06.pdf&sa=D&source=docs&ust=1680203596863944&usg=AOvVaw3iUjCJYCSREpwDhjmCxFuM',
+      descarga: '/downloads/Investigaciones_Turisticas_07_06.pdf',
     },
   ],
   glosario: [
